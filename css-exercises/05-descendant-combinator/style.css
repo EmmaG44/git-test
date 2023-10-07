@@ -1,0 +1,8 @@
+/*CSS styling*/
+
+.container .text {     /*descendent combinator*/
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
