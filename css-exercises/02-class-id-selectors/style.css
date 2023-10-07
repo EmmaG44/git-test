@@ -1,4 +1,18 @@
 .odd-num {  /*class selector*/
     background-color:#e49d9c;
-    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#num-two {  /*id selector*/
+    color: #0b04df;
+    font-size: 36px;
+}
+
+#num-four {
+    background-color: #7bea8f;
+    font-weight: bold;
+}
+
+.adjust-size {
+    font-size: 24px;
 }
