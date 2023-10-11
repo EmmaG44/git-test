@@ -33,14 +33,37 @@
 
             //FUNADENTALS P2
 
-            const string = "The revolution will not be televised.";
+            /*const string = "The revolution will not be televised.";
             console.log(string);
             const badString = string; 
             console.log(badString);
 
             const name = "Chris";
             const greeting = `Hello, ${name}`;
-            console.log(greeting);
+            console.log(greeting);*/
+
+            //FUNADENTALS P3
+
+            function add7(number) {
+                return number + 7;
+            }
+
+            function multiply(num1, num2) {
+                return num1 * num2;
+            }
+
+            function capitalize(string) {     //capitalise only first letter
+                const lower = string.toLowerCase();
+                const first = (lower.charAt(0)).toUpperCase();
+                return first + lower.substring(1);
+            }
+
+            function lastLetter(string) {
+                const last = string.charAt(string.length-1);
+                return last;
+            }
+
+            console.log(lastLetter("gfds"));
 
         </script>
     </body>
